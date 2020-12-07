@@ -1,0 +1,84 @@
+.category {
+	text-decoration:underline;
+	color:tomato;
+	background-color:gray;
+	float:left;
+	margin-top:20px;
+	font-size:20px;
+	
+}
+#neema {
+	text-decoration:underline;
+	font-size:40px;
+}
+#header {
+	font-size:35px;
+	background-color:gray;
+}
+#menu {
+	background-color:white;
+	color:brown;
+	margin bottom:10px;
+	margin-top:1px;
+	text-decoration:underline;
+}
+#tools {
+	color:brown;
+	margin:10px;
+	background-color:black;
+	
+	
+}
+#h1 {
+	color:blue;
+}
+#sidebar {
+	float:left;
+	background-color:gray;
+	margin-top:0px;
+	text-decoration:underline;
+	padding:10px;
+	color:blue;
+	font-size:20px;
+}#p.ridge {border-style: ridge;}
+#mainbody {
+	background-color:gray;
+	
+	
+}
+#footer {
+	float:left;
+	margin:0px;
+}
+.social-menu ul {
+	position: absolute;
+	margin:210px;
+	display:flex;
+	padding:0;
+	
+	
+}
+.social-menu ul li {
+	list-style:none;
+	margin:0 15px;
+}
+.social-menu ul li .fa {
+	font-size:30px;
+	line-height:60px;
+	transition: .6s;
+	color:black;
+}
+.social-menu ul li a {
+	position: relative;
+	display: block;
+	width: 60px;
+	height:60px;
+	border-radius: 60%;
+	background-color: white;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover {
+	transform: translate(0, -10px);
+}
